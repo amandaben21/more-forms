@@ -9,13 +9,8 @@ const Form = (props) => {
     
     const createUser = (e) => {
         e.preventDefault();
+        console.log(username, email, password, confirm_password)
 
-        const newUser = { username, email, password, confirm_password};
-        console.log("Welcome", newUser);
-    	setUsername("");
-    	setEmail("");
-    	setPassword("");
-        setConfirm_Password("");
     };
     
     return(
